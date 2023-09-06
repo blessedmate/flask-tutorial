@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <body>
+      <h1>Home!</h1>
+      {% for x in content %}
+      <p>Hello {{x}}</p>
+      {% if x == "john"%}
+      <p>hey john</p>
+      {% endif %} {%endfor%}
+    </body>
+  </head>
+</html>
